@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.item-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ 
+    .card{
+        text-align: center;
+        padding: 10px;
+        width: 300px;
+        border-radius: 5px;
+        padding: 1em;
+        gap: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      img{
+        height: 100px;
+        width: auto;
+      
+      }
+    }
+}
